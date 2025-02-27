@@ -1,0 +1,128 @@
+a {
+  color: black;
+}
+.OQueFaco {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+h1 {
+  width: 100%;
+  margin: auto;
+  margin-top: 80px !important;
+  position: relative !important;
+}
+.Work-Container {
+  gap: 20px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work-img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+}
+
+.col {
+  font-size: 20px;
+  font-weight: bold;
+  width: 22%;
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.containerskills {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin: auto;
+}
+
+.skills {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.digital {
+  width: 100%;
+  max-width: 100px;
+}
+.dot,
+.halfdot,
+.emptydot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.dot {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(151, 119, 185, 1) 50%,
+    rgba(94, 178, 255, 1) 100%
+  );
+}
+
+.halfdot {
+  width: 7.5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(151, 119, 185, 1) 50%,
+    rgba(94, 178, 255, 1) 100%
+  );
+  border-radius: 10px 0 0 10px;
+}
+
+.emptydot {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(61, 56, 155);
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .containerskills {
+    width: 100%;
+  }
+
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .work-img {
+    width: 150px;
+  }
+}
